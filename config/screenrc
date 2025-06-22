@@ -1,5 +1,5 @@
 startup_message off
-term linux
+#term linux
 ##use ` as the Global Key
 ## escape ``
 ##set a biger buffer
