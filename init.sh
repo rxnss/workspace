@@ -1,5 +1,9 @@
+sudo apt-get install screen
 # python packages
 pip install torch 
 pip install matplotlib
 # ollama 
-curl -fsSL https://ollama.com/install.sh | sh 
+[ -e /usr/local/bin/ollama ] || curl -fsSL https://ollama.com/install.sh | sh 
+
+ln -sf config/.screenrc ~/
+
