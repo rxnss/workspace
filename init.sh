@@ -5,5 +5,5 @@ pip install matplotlib
 # ollama 
 [ -e /usr/local/bin/ollama ] || curl -fsSL https://ollama.com/install.sh | sh 
 
-ln -sf config/.screenrc ~/
+ln -sf `realpath config/screenrc` ~/.screenrc
 
