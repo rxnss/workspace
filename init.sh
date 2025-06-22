@@ -1,2 +1,2 @@
-pip install pytorch 
+pip install torch 
 pip install matplotlib
